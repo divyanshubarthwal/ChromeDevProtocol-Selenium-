@@ -36,7 +36,8 @@ public class MobileEmulatorTest {
 
 		        }};
 
-		        driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", deviceMetrics);driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+		        driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", deviceMetrics);
+		        driver.get("https://rahulshettyacademy.com/angularAppdemo/");
 		driver.findElement(By.xpath("/html/body/app-root/nav/button/span")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Library")).click();

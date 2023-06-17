@@ -15,6 +15,18 @@
   </properties>
 
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v113 -->
+
+<dependency>
+
+    <groupId>org.seleniumhq.selenium</groupId>
+
+    <artifactId>selenium-devtools-v113</artifactId>
+
+    <version>4.9.1</version>
+
+</dependency>
+
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
